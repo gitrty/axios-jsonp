@@ -1,6 +1,6 @@
-# axios-jsonp
+# vue-toyo-jsonp
 
-## 调用示例 : 
+## 使用方法 : 
 ```
 npm i vue-toyo-jsonp -D
 ```

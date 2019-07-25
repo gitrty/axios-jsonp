@@ -39,7 +39,7 @@ Vue.prototype.$jsonp = (url, parama, jsonpCallback) => {
 
 
 export default {
-    jsonp : (url, parama, jsonpCallback) => {
+    jsonp: (url, parama, jsonpCallback) => {
         let str = "";
         for (let key in parama) {
             str += key + "=" + parama[key] + "&";
