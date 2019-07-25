@@ -4,7 +4,7 @@ vue中封装jsonp(由于axios不能使用jsonp)
 ## 调用示例 : 
 #### 1 下载jsonp.js到项目目录, 在main.js(入口文件)中导入jsonp.js
 
-2-1 在组件中调用
+#### 在组件中调用
 ```js
 this.$jsonp(
     'https://www.baidu.com/su',
