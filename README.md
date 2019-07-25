@@ -29,3 +29,15 @@ Vue.prototype.$jsonp(
     console.info(data);
 })
 ```
+也可以直接导入 vue-toyo-jsonp 使用
+```js
+import toyo from "vue-toyo-jsonp"
+
+toyo.jsonp(
+    'https://www.baidu.com/su',
+    { wd: 'hello world' },
+    'cb'
+).then(data => {
+    console.info(data);
+})
+```
