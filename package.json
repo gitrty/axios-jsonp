@@ -1,0 +1,20 @@
+{
+  "name": "vue-toyo-jsonp",
+  "version": "1.0.0",
+  "description": "vue-toyo-jsonp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitrty/axios-jsonp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitrty/axios-jsonp/issues"
+  },
+  "homepage": "https://github.com/gitrty/axios-jsonp#readme"
+}
