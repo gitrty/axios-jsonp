@@ -37,27 +37,3 @@ Vue.prototype.$jsonp = (url, parama, jsonpCallback) => {
     })
 }
 
-// 调用示例 : 
-// 1 复制以上代码到 main.js(入口文件) 中
-
-// 2-1 在组件中调用
-// this.$jsonp(
-//     'https://www.baidu.com/su',
-//     { wd: 'hello world' },
-//     'cb'
-// ).then(data => {
-//     console.info(data);
-// })
-
-// 2-2 在Vuex管理的函数中调用
-// 由于 actions/mutations等 中的 this 指向 store , 所以不能直接使用this.$jsonp调用
-
-// import Vue from 'vue'       
-
-// Vue.prototype.$jsonp(
-//     'https://www.baidu.com/su',
-//     { wd: 'hello world' },
-//     'cb'
-// ).then(data => {
-//     console.info(data);
-// })
