@@ -1,3 +1,5 @@
+import Vue from 'vue';
+
 /**
  * @name Vue中封装jsonp跨域请求方法
  * @param {String} url 
