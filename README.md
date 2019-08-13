@@ -4,7 +4,11 @@
 ```
 npm i vue-toyo-jsonp -D
 ```
-安装成功后 在main.js(入口文件)中引入即可
+安装成功后 在main.js(入口文件)中引入
+```js
+import jsonp from "vue-toyo-jsonp";
+Vue.prototype.$jsonp = jsonp
+```
 
 #### 在组件中调用
 ```js
@@ -33,7 +37,7 @@ Vue.prototype.$jsonp(
 ```js
 import toyo from "vue-toyo-jsonp"
 
-toyo.jsonp(
+toyo(
     'https://www.baidu.com/su',
     { wd: 'hello world' },
     'cb'
