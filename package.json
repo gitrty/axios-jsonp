@@ -1,6 +1,6 @@
 {
   "name": "vue-toyo-jsonp",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "vue-toyo-jsonp",
   "main": "index.js",
   "scripts": {
